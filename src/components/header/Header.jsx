@@ -79,11 +79,15 @@ const Header = () => {
           setMobileMenu(false);
     }
 
+    const welcomeToHome = () => {
+      navigate("/")
+    }
+
     return (
        <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
           <ContentWrapper>
             <div className="logo">
-               <img src={logo} alt="logo" />
+               <img src={logo} alt="logo" onClick={welcomeToHome} />
             </div>
 
             <ul className="menuItems">
