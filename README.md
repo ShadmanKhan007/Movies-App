@@ -31,17 +31,25 @@ Start the development server:
 
 
 copy code
-npm start
+# npm  run dev
 Open your web browser and visit http://localhost:5173/ to access the movie app.
 
-Usage
+## Usage
 Once you have the movie app running, you can:
 
 Browse movies by scrolling through the home page.
 Search for specific movies using the search bar.
 Click on a movie to view its details.
 
-Configuration
+
+
+
+
+
+
+
+
+# Configuration
 The movie app requires an API key to fetch movie data from a third-party API. Follow these steps to set up the API key:
 
 Sign up for an account at API Provider and obtain an API key.
@@ -55,7 +63,28 @@ Copy code
 REACT_APP_API_KEY=YOUR_API_KEY
 Save the .env file.
 
-Contributing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Contributing
 Contributions are welcome! If you'd like to contribute to the movie app, please follow these guidelines:
 
 Fork the repository.
