@@ -49,7 +49,7 @@ Click on a movie to view its details.
 
 
 
-# Configuration
+## Configuration
 The movie app requires an API key to fetch movie data from a third-party API. Follow these steps to set up the API key:
 
 Sign up for an account at API Provider and obtain an API key.
